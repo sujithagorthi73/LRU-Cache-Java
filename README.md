@@ -18,10 +18,12 @@ In systems with limited memory, frequently accessed data should be retrieved qui
 - Cache hit and miss tracking
 
 ## How to Run
+```
 javac LRUCache.java Main.java
 java Main
-
+```
 ## Sample Output
+```
 10
 -1
 -1
@@ -29,6 +31,6 @@ java Main
 40
 Cache Hits: 3
 Cache Misses: 2
-
+```
 ## Learning Outcome
 This project helped me understand how multiple data structures can be combined to solve real-world performance problems efficiently.
